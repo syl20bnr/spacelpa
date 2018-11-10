@@ -8,7 +8,7 @@ BUILD_PATH        = $(MAKEFILE_PATH)/build
 EMACS_CONFIG_DIR  = .emacs.d
 EMACS_CONFIG_PATH = $(BUILD_PATH)/$(EMACS_CONFIG_DIR)
 EMACS_SCRIPT_FILE = $(SCRIPT_DIR)/spacelpa.el
-LOAD_FILES        = core/core-versions.el core/core-load-paths.el
+LOAD_FILES        = core/core-versions.el core/core-load-paths.el core/core-dumper.el
 SCRIPT_DIR        = scripts
 
 .PHONY: clean
