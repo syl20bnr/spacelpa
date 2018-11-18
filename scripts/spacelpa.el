@@ -19,5 +19,5 @@
 
 (let ((dir (expand-file-name
             (concat (file-name-directory load-file-name)
-                    "../" ))))
+                    "../packages" ))))
   (configuration-layer/create-elpa-repository "" dir))
